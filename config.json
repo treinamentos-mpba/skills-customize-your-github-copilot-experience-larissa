@@ -72,6 +72,13 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "testing-fastapi-with-pytest",
+      "title": "Testes Automatizados para APIs FastAPI",
+      "description": "Crie testes automatizados para validar endpoints, operações CRUD, validação de dados e respostas HTTP usando pytest e TestClient.",
+      "path": "assignments/testing-fastapi-with-pytest",
+      "dueDate": "2026-11-04"
     }
   ]
 }
