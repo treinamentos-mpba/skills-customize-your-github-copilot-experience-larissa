@@ -1,19 +1,34 @@
+# 📘 Atividade: Jogo da Forca
 
-# 🎮 Desafio: Jogo da Forca
+## 🎯 Objetivo
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+Crie um jogo da Forca em Python para praticar manipulação de strings, loops, condicionais e entrada de dados. O jogador deve descobrir uma palavra oculta antes de esgotar as tentativas.
 
-## 🎯 O Que Você Vai Construir
+## 📝 Tarefas
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+### 🛠️ Preparar a palavra e o progresso do jogo
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+#### Descrição
+Escolha aleatoriamente uma palavra de uma lista predefinida e prepare a representação que será exibida ao jogador.
 
-## ✅ Requisitos Obrigatórios
+#### Requisitos
+O programa concluído deve:
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+- Manter uma lista predefinida com pelo menos cinco palavras.
+- Selecionar uma palavra aleatoriamente da lista.
+- Exibir cada letra ainda não descoberta como `_`, mantendo as letras na posição correta.
+- Definir e exibir o número inicial de tentativas disponíveis.
+
+### 🛠️ Implementar os palpites e o encerramento
+
+#### Descrição
+Permita que o jogador tente adivinhar uma letra por vez até descobrir a palavra ou ficar sem tentativas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Solicitar um palpite de uma letra e revelar todas as ocorrências corretas na palavra.
+- Reduzir as tentativas disponíveis quando o palpite não estiver na palavra.
+- Atualizar e exibir o progresso após cada palpite.
+- Encerrar quando a palavra for descoberta ou as tentativas acabarem.
+- Exibir uma mensagem de vitória ou derrota; em caso de derrota, revelar a palavra.
